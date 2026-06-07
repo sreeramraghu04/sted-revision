@@ -1,154 +1,141 @@
-what does map() return
-New array
+1. what does map() return
+   - New array
 
-which method filters elements based on a condition
-filter()
+2. which method filters elements based on a condition
+   - filter()
 
-what does find() return if no match is found
-undefined
+3. what does find() return if no match is found
+   - undefined
 
-who is the founder of JavaScript
-Bredan Eich
+4. who is the founder of JavaScript
+   - Bredan Eich
 
-the latest version of HTML is
-HTML5
+5. the latest version of HTML is
+   - HTML5
 
-typeof null is
-object
+6. typeof null is
+   - object
 
-react component names must begin with an uppercase latter
-true
+7. react component names must begin with an uppercase latter
+   - true
 
-http status code 400 to 499 stands for
-client-side error\
+8. http status code 400 to 499 stands for
+   - client-side error
 
-what refers to the development of data storage and communication between the applications database and browser
-backend development
+9. what refers to the development of data storage and communication between the applications database and browser
+   - backend development
 
-what is the correct javascript syntax to change the content of the html element below
-`<p id="demo">This is a demonstration</p>`
-document.gwtElementById("demo").innerHTML="Hello World";
+10. what is the correct javascript syntax to change the content of the html element below
 
-what is the correct syntax for referring to an external script called "script.js"
-`<script src="./script.js>`
+    `<p id="demo">This is a demonstration</p>`
+    - `document.getElementById("demo").innerHTML="Hello World";`
 
-how tp write an IF statement for executing code if "i" does not equals 5
-`if(i!=5)`
+11. what is the correct syntax for referring to an external script called "script.js"
+    - `<script src="./script.js>`
 
-how does a for loop start
-`for(i=0;i<=5;i++)`
+12. how to write an IF statement for executing code if "i" does not equals 5
+    - `if(i!=5)`
 
-which NodeJS method is used to delay the execution of a function
-`setTimeout()`
+13. how does a for loop start
+    - `for(i=0;i<=5;i++)`
 
-what does the npm init command do
-it initialize a new package.json file
+14. which NodeJS method is used to delay the execution of a function
+    - `setTimeout()`
 
-which property is used to represent the transparency of an element in css
-opacity
+15. what does react use to improve performance during update
+    - virtula DOM
 
-how is the document type initialized in HTML5
-`<!Doctype html>`
+16. which property is used to represent the transparency of an element in css
+    - opacity
 
-after swapping the first and the last element of the array [1,2,3,4,5], what will be the new arragement
-`[5,2,3,4,1]`
+17. how is the document type initialized in HTML5
+    - `<!Doctype html>`
 
-loop to print N number of "\*" in a single row
-`for(i=1;i<=n;i++>)`
+18. after swapping the first and the last element of the array [1,2,3,4,5], what will be the new arragement
+    - `[5,2,3,4,1]`
 
-what is closure in JavaScript
-a function that remembers variables from its outer scope
+19. loop to print N number of "\*" in a single row
+    - `for(i=1;i<=n;i++>)`
 
-a built-in language behavior that moves variables, functions, and class declarations to the top their scope before the code is executed
-hoisting
+20. what is closure in JavaScript
+    - a function that remembers variables from its outer scope
 
-what is the purpose of useEffect in react
-to perform side effects in function components
+21. a built-in language behavior that moves variables, functions, and class declarations to the top their scope before the code is executed
+    - hoisting
 
-when does useEffect{()=>{},[]} run
-only once after the initial render
+22. what is the purpose of useEffect in react
+    - to perform side effects in function components
 
-what is the purpose of key in react lists
-to uniquely identify elements for efficient re-rendering
+23. when does useEffect{()=>{},[]} run
+    - only once after the initial render
 
-what does react use to improve performance during update
-virtula DOM
+24. what is the purpose of key in react lists
+    - to uniquely identify elements for efficient re-rendering
 
-what will happens if you directly modify state like this
-`</> JS`
-`state.count=5;`
-nothing happens
+25. what does the npm init command do
+    - it initialize a new package.json file
 
-what is NodeJS
-a JavaScript runtime environment
+26. what does npm install do
+    - install node modules
 
-which company developed Node.js
-Joyent
+27. what is NodeJS
+    - a JavaScript runtime environment
 
-which module is used to create a server in Node.js
-http
+28. which company developed Node.js
+    - Joyent
 
-what does require() do
-imports module
+29. which module is used to create a server in Node.js
+    - http
 
-Node.js is
-Non-blocking
+30. what does require() do
+    - imports module
 
-which object is used to handle file system operations
-fs
+31. Node.js is
+    - Non-blocking
 
-what is required for each element rendered when rendering a list using the JavaScript map() method
-key
+32. which object is used to handle file system operations
+    - fs
 
-which array method returns the first element that mathches a condition
-find()
+33. what is required for each element rendered when rendering a list using the JavaScript map() method
+    - key
 
-what is the output
-`console.log(typeof [])`
-object
+34. which array method returns the first element that mathches a condition
+    - find()
 
-which hook is used to manage state in a functional react component
-useState
+35. which hook is used to manage state in a functional react component
+    - useState
 
-what will be the output
-`let result = arr.forEach((item)=> item * 2);`
-undefined
+36. what does jwt mean
+    - javascriptwebtoken
 
-jwt
-javascriptwebtoken
+37. which mongoDB method is used to retrieve asingle document
+    - findOne()
 
-what is the output
-`const x = 10; {const x = 20;}`
-10
+38. which method is used to store data in the browser permanently
+    - localStorage
 
-which mongoDB method is used to retrieve asingle document
-findOne()
+39. which HTTP status code indicates 'Not Found'
+    - 404
 
-which method is used to store data in the browser permanently
-localStorage
+40. which react hook is commonly used for API calls
+    - useEffect()
 
-which HTTP status code indicates 'Not Found'
-404
+41. what does filter() return
+    - new filtered array
 
-which react hook is commonly used for API calls
-useEffect()
+42. which operator checks both values and datatypes
+    - `===`
 
-what does filter() return
-new filtered array
+43. which of the following is NOT a react hook
+    - useComponent
 
-which operator checks both values and datatypes
-`===`
+44. what will happens if you directly modify state like this
+    `</> JS`
+    `state.count=5;`
+    - nothing happens
 
-which of the following is NOT a react hook
-useComponent
+45. which method is used to convert a JavaScript object into a JSON string
+    - JSON.stringify()
 
-what does npm install do
-install node modules
-
-which method is used to convert a JavaScript object into a JSON string
-JSON.stringify()
-
-which methods adds one or more elements to the end of an array
-push()
-
-
+46. which methods adds one or more elements to the end of an array
+    - push()

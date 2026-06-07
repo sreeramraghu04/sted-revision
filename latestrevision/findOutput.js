@@ -167,7 +167,16 @@ console.log(x == z); */
 // 3
 
 //! 17
-let x = 5;
-function test() {
-  console.log(x);
-}
+// let x = 5;
+// function test() {
+//   console.log(x);
+// }
+
+//? output
+// nothing
+
+//! 18
+// console.log(typeof []);
+
+//? output
+// object
