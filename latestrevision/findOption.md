@@ -108,7 +108,7 @@
 36. what does jwt mean
     - javascriptwebtoken
 
-37. which mongoDB method is used to retrieve asingle document
+37. which mongoDB method is used to retrieve a single document
     - findOne()
 
 38. which method is used to store data in the browser permanently
