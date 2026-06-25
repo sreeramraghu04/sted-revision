@@ -43,7 +43,7 @@
     - `setTimeout()`
 
 15. what does react use to improve performance during update
-    - virtula DOM
+    - virtual DOM
 
 16. which property is used to represent the transparency of an element in css
     - opacity
@@ -108,7 +108,7 @@
 36. what does jwt mean
     - javascriptwebtoken
 
-37. which mongoDB method is used to retrieve asingle document
+37. which mongoDB method is used to retrieve a single document
     - findOne()
 
 38. which method is used to store data in the browser permanently
